@@ -1,0 +1,25 @@
+@import url("reset.css");
+
+
+*{
+    color: black;
+}
+a{
+    color: darkorange;
+}
+
+.text{
+    color: darkblue;
+}
+
+#facts{
+    color: aqua;
+}
+
+div.intro{
+    color: red;
+}
+
+.silk{
+    color: chartreuse;
+}
