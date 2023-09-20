@@ -1,14 +1,14 @@
 @import url("reset.css");
 
-
 *{
     color: black;
 }
+
 a{
     color: darkorange;
 }
 
-.text{
+.harness{
     color: darkblue;
 }
 
@@ -20,6 +20,34 @@ div.intro{
     color: red;
 }
 
-.silk{
-    color: chartreuse;
+.text__silk,.text{
+    color: greenyellow;
+}
+
+.list li{
+    color: darkgreen;
+}
+
+.list .link{
+    color: deeppink;
+}
+
+.brown *{
+    color: brown;
+}
+
+.intro > p{
+    color: darkslategrey;
+}
+
+.social ~ a{
+    color: blue;
+}
+
+.social + a{
+    color: red;
+}
+
+[class*="__container"] {
+    color: fuchsia;
 }
