@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+
+
+
+@font-face {
+    font-family: Causten;
+    scr: url(../fonts/Causten-LightOblique.otf) format()
+}
+
+body {
+    font-family: serif;
+    font-style: italic;
+    font-weight: 500;
+    color: dimgrey;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(58, 26, 6);
+    text-align: center;
+    text-shadow: 2px 2px 2px #4f341e;
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.shop,.info {
+    text-align: center;
+}
+
+h2, h3 {
+    color:#6b3404;
+    font-size: 25px;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+ol > li {
+    color: rgba(147, 61, 3, 1);
+    line-height: 1.5;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul > li {
+    color: rgba(147, 61, 3, 0,2);
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bags {
+    text-transform: uppercase;
+}
+
+.intro__container {
+line-height:1.27 ;
+}
+
+.facts__container li {
+    color: rgb(24, 36, 10);
+}
+
+[class*="__container"] {
+    text-indent: 20px;
+}
