@@ -1,0 +1,62 @@
+/* Google Fonts */
+/* с сайта */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+
+/* с плагина */
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+/* вручную */
+/* @import url("fonts.css"); */
+
+body {
+    font-family:"Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+    font-style: normal;
+}
+
+.title,
+.sub-title,
+.project-title  {
+    font-family:"Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1,27;
+    text-decoration: none;
+}
+
+.title {
+    color: #37393F;
+    font-size: 30px; 
+}
+
+.sub-title {
+    color: #6B77E5;
+    font-size: 20px;
+}
+
+.text,
+.project-block,
+.block, 
+.block-text {
+    font-weight: 400;
+    line-height: 1,47;
+}
+
+.project-title {
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project-list,
+.block-list {
+    font-weight: 500;
+    line-height: 1,47;
+    text-indent: 20px;
+}
+
+
+
+

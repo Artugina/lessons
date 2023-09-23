@@ -1,17 +1,9 @@
 @import url("reset.css");
 
-<link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
-
-
-
-
-@font-face {
-    font-family: Causten;
-    scr: url(../fonts/Causten-LightOblique.otf) format()
-}
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 body {
-    font-family: serif;
+    font-family:"Rubik", sans-serif;
     font-style: italic;
     font-weight: 500;
     color: dimgrey;
@@ -61,7 +53,7 @@ ol > li {
 }
 
 ul > li {
-    color: rgba(147, 61, 3, 0,2);
+    color:  rgba(142, 66, 16, 0.812));
     font-style: oblique;
     font-size: 16px;
     font-weight: 300;
@@ -81,4 +73,12 @@ line-height:1.27 ;
 
 [class*="__container"] {
     text-indent: 20px;
+}
+.dz {
+    color: black;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-decoration:overline underline;
 }
