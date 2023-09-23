@@ -40,21 +40,21 @@ body {
 .project-block,
 .block, 
 .block-text {
-    font-weight: 400;
     line-height: 1,47;
 }
 
 .project-title {
     color: #37393F;
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
+    
 }
 
 .project-list,
 .block-list {
     font-weight: 500;
-    line-height: 1,47;
     text-indent: 20px;
+    line-height: 1,47;
 }
 
 
