@@ -10,8 +10,6 @@
     padding: 10px 12px 13px 11px;
     margin: 0 auto 37px;
 }
-/* ______BODY_________ */
-
 .consulting {
     font-family: "Poppins", sans-serif;
     color: #7D7D7D;
@@ -71,12 +69,11 @@ h3{
     line-height: normal;
     margin-bottom: 30px;
 }
-
 /* ------------2---------------- */
 .jewels {
     max-width:1170px;
     max-height: 518px;
-    margin: 0 auto;
+    margin: 0 auto 70px;
 }
 .jewels-text {
     display: inline-block;
@@ -119,4 +116,18 @@ h3{
 }
 .earrings {
     max-width: 100%;
+}
+/* -----------3---------------- */
+.lorem-block {
+    background-color: rgb(209, 240, 233);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.lorem-block p {
+    margin-bottom: 20px;
+}
+.lorem-block a {
+    color: blue;
+    display: inline-block;
+    margin-bottom: 20px;
 }
