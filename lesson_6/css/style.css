@@ -16,7 +16,7 @@
     font-family: "Poppins", sans-serif;
     color: #7D7D7D;
     font-size: 18px;
-    line-height: 1,27 ;
+    line-height: 1,27;
     max-width: 692px;
     margin: 0 auto;
 } 
@@ -92,7 +92,7 @@ h3{
 }
 .subtitle-2 {
     color: #0E333D;
-    font-family: DM Serif Text; 
+    font-family: "DM Serif Text"; 
     font-size: 59px;
     line-height: 1,46;
     margin-bottom: 25px;
