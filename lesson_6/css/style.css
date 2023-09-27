@@ -117,7 +117,7 @@ h3{
 .earrings {
     max-width: 100%;
 }
-/* -----------3---------------- */
+-----------3----------------
 .lorem-block {
     background-color: rgb(209, 240, 233);
     padding: 20px;
@@ -125,9 +125,4 @@ h3{
 }
 .lorem-block p {
     margin-bottom: 20px;
-}
-.lorem-block a {
-    color: blue;
-    display: inline-block;
-    margin-bottom: 20px;
-}
+} 
