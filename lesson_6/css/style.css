@@ -76,6 +76,7 @@ h3{
 .jewels {
     max-width:1170px;
     max-height: 518px;
+    margin: 0 auto;
 }
 .jewels-text {
     display: inline-block;
