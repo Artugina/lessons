@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:700);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+
+.exercise-1 {
+    padding: 50px 15px;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+    
+.logo {
+    width: 12px;
+    height: 12px;   
+    background: #40DDB6;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+.logo-text {
+    text-align: center;
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+h1 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 121%; /* 72.6px */
+    margin-bottom: 70px;
+}
+h2 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%; /* 48.4px */
+    margin-bottom: 11px;
+}
+.text-1 {
+    line-height: 146.187%; /* 26.314px */
+    margin-bottom: 32px;
+}
+.title-3 {
+    font-family: Poppins;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+    color: #37393F;
+    font-weight: 700;
+}
+.title-3 span {
+    color: #40DDB6;
+    font-weight: 400;
+}
+.text-01{
+    line-height: 146.187%; /* 26.314px */
+    margin-bottom: 24px;
+}
+.text-2 {
+}
+.color {
+}
