@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
 @import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
 
 @import url("reset.css");
@@ -70,7 +70,23 @@ h2 {
     line-height: 146.187%; /* 26.314px */
     margin-bottom: 24px;
 }
+.pexels {
+    margin-bottom: 8px;
+}
 .text-2 {
+    color: #40DDB6;
+    line-height: 146.187%; /* 26.314px */
+    margin-bottom: 24px;
+}
+.down {
+    margin-bottom: 100px;
+}
+.fonts {
+    margin-bottom: 11px;
 }
 .color {
+    color: #40DDB6;
+    font-weight: 500;
+    line-height: 146.187%;
 }
+
