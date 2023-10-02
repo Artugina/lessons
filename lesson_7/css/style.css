@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
 @import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
-@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:700);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:500,700);
 @import url("fonts.css");
 
 @import url("reset.css");
@@ -8,7 +8,7 @@
 body {
     font-family: "Inter", sans-serif;
     color: #7D7D7D;
-    font-size: 18px;
+    
 }
 .header {
     display: none;
@@ -19,6 +19,7 @@ body {
     padding: 50px 15px;
     max-width: 1248px;
     margin: 0 auto;
+    font-size: 18px;
 }
 .title {
     text-align: center;
@@ -102,6 +103,7 @@ h2 {
     padding: 50px 15px;
     max-width: 830px;
     margin: 0 auto;
+    font-size: 18px;
 }
 .title-project {
     text-transform: capitalize;
@@ -127,6 +129,7 @@ h2 {
     padding: 50px 100px;
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 18px;
 }
 .clothing-title {
     /* width: 575px ; */
@@ -191,21 +194,68 @@ font-weight: 700;
 }
 /* -----------#4--------------- */
 .exercise-4 {
-    padding: 50px 15px;
-    max-width: 1630px;
+    padding: 100px 0px;
+    font-family: "Cormorant Infant", serif;
+}
+.container {
+    max-width: 1100px;
     margin: 0 auto;
+    font-size: 0;
 }
 .jewellery-block {
-    font-family: "Cormorant Infant", serif;
-    width: 503px;
+    max-width: 503px;
+    display: inline-block;
+    padding: 70px 0;
+    margin-right: 75px;
+    font-size: 16px;
+    font-weight: 700;
 }
 h6 {
     color: #D58417;
     font-size: 20px;
-    font-weight: 700;
     line-height: 100%; /* 20px */
+    margin-bottom: 27px;
 }
 .jewellery-title {
+    font-family: "Cormorant Infant", serif;
+    color: #000;
+    font-size: 64px;
+    line-height: 100%; /* 64px */
+    margin-bottom: 30px;
 }
 .content {
+    color: #606060;
+    font-size: 31px;
+    line-height: 140%; /* 42px */
+}
+.image {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+.two-image {
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
+.two-image img {
+    border-radius: 235px;
+}
+.left {
+    margin-right: 30px;
+    width: 177px;
+    height: 336px;
+}
+.left img {
+    margin-left: -10px;
+    padding-top: 14px;
+}
+.richt {
+    width: 307px;
+    height: 500px;
+}
+.richt img {
+    margin-left: -11px;
+    padding-top: 19px;
 }
