@@ -210,7 +210,7 @@ font-weight: 700;
     font-size: 16px;
     font-weight: 700;
 }
-h6 {
+.what{
     color: #D58417;
     font-size: 20px;
     line-height: 100%; /* 20px */
@@ -230,32 +230,36 @@ h6 {
 }
 .image {
     display: inline-block;
+    max-width: 525px;
     font-size: 0;
     vertical-align: top;
 }
-.two-image {
-    vertical-align: middle;
-    display: inline-block;
-    border: 1px solid #502203;
-    border-radius: 235px;
-}
-.two-image img {
-    border-radius: 235px;
-}
 .left {
-    margin-right: 30px;
-    width: 177px;
-    height: 336px;
+    margin-right: 24px;
+}
+.girl {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    padding-top: 15px;
+    padding-right: 8px;
 }
 .left img {
-    margin-left: -10px;
-    padding-top: 14px;
+    margin-left: -14px;
+    margin-bottom: -16px;
+    border-radius: 235px;
+    overflow: hidden;
+    max-width: 100%;
 }
-.richt {
+.right {
     width: 307px;
     height: 500px;
+    display: inline-block;
 }
-.richt img {
-    margin-left: -11px;
-    padding-top: 19px;
-}
+.right img {
+    margin-left: -14px;
+    margin-bottom: -16px;
+    border-radius: 235px;
+    overflow: hidden;
+    max-width: 100%;
