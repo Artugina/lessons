@@ -1,0 +1,349 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600);
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+
+/* -----------header--------------- */
+.exercise-dz {
+    max-width: 1000px;
+    height: 300px;
+    margin: 0 auto 50px;
+    padding: 20px 50px;
+    background-image: url(../img/dz.jpg);
+    background-repeat: round ;
+    background-attachment: fixed;
+}
+.gradient {
+    margin: 0 auto;
+    max-width: 300px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,100,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    border: 5px solid rgb(41, 50, 65);
+    padding: 20px 0px;
+}
+/* -----------#1--------------- */
+.exercise-1 {
+    max-width: 880px;
+    margin: 0 auto 50px;
+    padding: 20px 69px;
+    font-family: serif;
+}
+h4 {
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.marker {
+    display: inline-block;
+    background: #40DDB6 0 3px;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    
+}
+.title-one {
+    max-width: 415px;
+    color: #37393F;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%; /* 48.4px */
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+.text-one {
+    color: #7D7D7D;
+    line-height: 146.187%; /* 26.314px */
+    margin-bottom: 20px;
+}
+.text-one p {
+    margin-bottom: 15px;
+}
+.list-one {
+    margin-bottom: 43px;
+}
+.list-one li {
+    color: #37393F;
+    font-family: "Poppins";
+    font-size: 20px;
+    min-width: 27px;
+    line-height: 165%;
+    padding-left: 35px;
+    margin-bottom: 23px;
+    background: url(../img/vector.jpg) 0 3px no-repeat;
+}
+.container-one {
+    margin-bottom: 37px;
+}
+.block-one {
+    display: inline-block;
+    padding: 31px 37px 32px;
+    width: 297px;
+    border: 1px solid #E3E3E3;
+}
+.left {
+    margin-right: 21px;
+}
+.icon {
+    background: url(../img/icon.jpg) no-repeat;
+    padding-left: 58px;
+}
+.caption-one {
+    color: #37393F;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 3px;
+}
+.excerpt {
+    color: #7D7D7D;
+    line-height: 135.187%; /* 21.63px */
+}
+.right {
+    display: inline-block;
+    margin-right: 21px;
+}
+.cup {
+    background: url(../img/cup.jpg) no-repeat;
+    padding-left: 58px;
+}
+.link-one {
+    width: 184px;
+    height: 65px;
+    background:#6B77E5;
+    padding: 21px 27px 22px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 145px;
+}
+/* -----------#2--------------- */
+.exercise-2 {
+    max-width: 1250px;
+    padding: 5px 15px;
+    margin: 0 auto 50px;
+}
+.intro-two {
+    text-align: center;
+    margin: 0 auto 47px;
+    max-width: 852px;
+}
+h5 {
+    color: #37393F;
+    font-weight: 500;
+    line-height: 122%;
+    margin-bottom: 14px;
+}
+.marker {
+}
+.title-two {
+    color: #37393F;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%; /* 48.4px */
+    margin-bottom: 14px;
+}
+.text-two {
+    color: #7D7D7D;
+    line-height: 146.187%; /* 26.314px */
+}
+.block-two {
+    font-size: 0px;
+}
+.line-1 {
+    margin-bottom: 58px;
+}
+.card {
+    min-width: 384px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.image-card {
+    height: 501px;
+    margin-bottom: 24px;
+}
+.pic1 {
+    margin-right: 34px;
+    background: url(../img/monitor.jpg) no-repeat;
+}
+.pic2 {
+    margin-right: 34px;
+    background: url(../img/boy.jpg) no-repeat;
+}
+.pic3 {
+    background: url(../img/phone.jpg) no-repeat;
+}
+.pic4 {
+    margin-right: 34px;
+    background: url(../img/woman.jpg) no-repeat;
+}
+.pic5 {
+    margin-right: 34px;
+    background: url(../img/desk.jpg) no-repeat;
+}
+.pic6 {
+    background: url(../img/laptop.jpg) no-repeat;
+}
+.title-card {
+    color: #37393F;    
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 127%; /* 25.4px */
+    margin-bottom: 10px;
+}
+.info-card span {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 4px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/done.jpg) no-repeat;
+}
+.info-card {
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 157.187%; /* 20.466px */
+}
+/* -----------#3--------------- */
+.exercise-3 {
+    max-width: 1270px;
+    padding: 5px 15px;
+    margin: 0 auto 50px;
+    font-family: "Core Sans C" sans-serif;
+}
+.marker-three {
+    display: inline-block;
+    width: 6px;
+    height: 28px;   
+    border-radius: 10px;
+    background: #8A33FD;
+    margin-right: 15px;
+}
+.title-three {
+    color: #3C4242;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.56px;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+.subtitle-three {
+    color: #807D7E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33.5px; /* 167.5% */
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+    margin-bottom: 25px;
+}
+.text-three {
+    color: #807D7E;
+    font-family: "Causten";
+    font-size: 20px;
+    line-height: 33.5px; /* 167.5% */
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+    margin-bottom: 25px;
+}
+.text-three p {
+    margin-bottom: 20px;
+}
+.euphoria{
+    color: #807D7E;
+    font-family: "Causten";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33.5px;
+    letter-spacing: 0.4px;
+}
+.link-three {
+    color: #807D7E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33.5px; /* 167.5% */
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+}
+/* -----------#4--------------- */
+.exercise-4 {
+    max-width: 1270px;
+    padding: 5px 15px ;
+    margin: 0 auto 50px;
+    font-family: "Causten", sans-serif;
+}
+.four {
+    font-size: 0;
+    border-radius: 10px;
+    
+}
+.four-left {
+    display: inline-block;
+    max-width: 614px;
+    background: url(../img/unsplas.jpg) no-repeat;
+    padding: 183px 74px 270px;
+}
+.title-four {
+    color: #FFF;
+    font-family: "Core Sans C" serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 123%; /* 147.059% */
+    letter-spacing: 0.208px;
+    margin-bottom: 30px;
+}
+.text-four {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.link-four {
+    border-radius: 8px;
+    background: #FFF;   
+    padding: 12px 44px;
+    color: #3C4242;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.four-right {
+    display: inline-block;
+    max-width: 626px;
+    min-height: 640px;
+    background: url(../img/rectangle.jpg) no-repeat;
+    vertical-align: top;
+    width: 100%;
+}
+
+/* -----------footer-------------- */
+footer {
+    padding: 5px 15px;
+    max-width: 730px;
+    height: 200px;
+    
+}
+.aside {
+    color: #E3E3E3;
+    font-size: 10px;
+    font-weight: 600;
+    background: grey url(../img/korich.jpeg) center 0/ 50% no-repeat scroll;
+}
+
