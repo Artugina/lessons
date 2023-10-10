@@ -225,7 +225,7 @@ h5 {
     max-width: 1270px;
     padding: 5px 15px;
     margin: 0 auto 50px;
-    font-family: "Core Sans C" sans-serif;
+    font-family: "Core Sans C", sans-serif;
 }
 .marker-three {
     display: inline-block;
@@ -300,7 +300,7 @@ h5 {
 }
 .title-four {
     color: #FFF;
-    font-family: "Core Sans C" serif;
+    font-family: "Core Sans C", serif;
     font-size: 34px;
     font-weight: 800;
     line-height: 123%; /* 147.059% */
