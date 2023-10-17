@@ -26,6 +26,10 @@ header {
     text-transform: capitalize;
     text-decoration: underline;
 }
+.menu-list {
+    font-size: 50px;
+    font-weight: 700;
+}
 .menu {
     max-width: 300px;
     margin: 0 auto;
@@ -36,7 +40,7 @@ header {
     line-height: 127%; /* 31.75px */
     background-color: #7d7d7d3e;
 }
-.menu li:nth-child(even) {
+.menu:nth-child(even) {
     background: #5a5a5a3e;
 }
 .link::before {
@@ -48,11 +52,14 @@ header {
     margin-right: 8px;
     margin-bottom: -6px;
 }
-.link {
+.menu {
     display:none;
 }
-.menu:hover .link {
+.menu-list:hover .menu {
     display: block;
+}
+.menu li:nth-child(even) {
+    background: #5a5a5a3e;
 }
 .menu li:hover {
     display: block;
@@ -313,6 +320,7 @@ header {
 .header-three {
     min-width: 283px;
     text-align: center;
+    margin: 0 auto;
 }
 .subtitle-three {
     color: #37393F;
