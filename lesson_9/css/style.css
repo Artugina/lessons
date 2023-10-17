@@ -41,7 +41,7 @@ header {
 }
 .link::before {
     content:"";
-    background: url(/img/vector.jpg) 0 0 no-repeat;
+    background: url(../img/vector.jpg) 0 0 no-repeat;
     width: 28px;
     height: 28px;
     display: inline-block;
@@ -204,7 +204,7 @@ header {
 }
 .list-one li::before{
     content:"";
-    background: url(/img/vector.jpg) 0 0 no-repeat;
+    background: url(../img/vector.jpg) 0 0 no-repeat;
     width: 28px;
     height: 28px;
     display: inline-block;
@@ -270,7 +270,7 @@ header {
 }
 .title-section-two::before {
     content:"";
-    background: url(/img/vector.jpg) 0 0 no-repeat;
+    background: url(../img/vector.jpg) 0 0 no-repeat;
     display: inline-block;
     width: 28px;
     height: 28px;
@@ -350,7 +350,7 @@ header {
 }
 .box-left::before {
     content:"";
-    background: url(/img/card1.svg) top no-repeat;
+    background: url(../img/card1.svg) top no-repeat;
     display: block;
     width: 100%;
     height: 72px;
@@ -359,7 +359,7 @@ header {
 }
 .box-center::before {
     content:"";
-    background: url(/img/pazl.svg) top no-repeat;
+    background: url(../img/pazl.svg) top no-repeat;
     display: block;
     width: 100%;
     height: 72px;
@@ -368,7 +368,7 @@ header {
 }
 .box-right::before {
     content:"";
-    background: url(/img/done.svg) top no-repeat;
+    background: url(../img/done.svg) top no-repeat;
     display: block;
     width: 100%;
     height: 72px;
