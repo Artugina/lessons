@@ -347,6 +347,7 @@ header {
 .block-three {
     max-width: 1220px;
     font-size: 0px;
+    margin: 0 auto;
 }
 .box {
     width: 386px;
