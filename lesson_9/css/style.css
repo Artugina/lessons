@@ -9,6 +9,7 @@ body {
     font-size: 18px;
 }
 /* ---------header--------------- */
+
 header {
     max-width: 1030px;
     padding: 15px;
@@ -25,7 +26,6 @@ header {
     text-transform: capitalize;
     text-decoration: underline;
 }
-
 .menu {
     max-width: 300px;
     margin: 0 auto;
@@ -62,8 +62,8 @@ header {
 .link:active {
 	color: rgb(217, 22, 109);
 }
-
 /* ---------GAME------------ */
+
 .game {
     width: 700px;
     height: 700px;
@@ -303,6 +303,7 @@ header {
     background: #0c21d8;
 }
 /* ---------exercise-3------------ */
+
 .exercise-3 {
     max-width: 1960px;
     padding: 10px 20px;
@@ -401,8 +402,8 @@ header {
 .link-three a:hover {
     text-decoration: underline;
 }
-
 /* ---------exercise-4------------ */
+
 .exercise-4 {
     max-width: 1630px;
     padding: 10px 15px;
@@ -487,8 +488,8 @@ header {
 }
 .image-right {
 }
-
 /* ----------footer------------ */
+
 footer {
     min-width: 1000px;
     text-align: center;
