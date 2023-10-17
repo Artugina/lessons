@@ -8,6 +8,144 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 18px;
 }
+/* ---------header--------------- */
+header {
+    max-width: 1030px;
+    padding: 15px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.name {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 121%; /* 48.4px */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.menu {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #37393F;
+    font-family: "Poppins";
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 127%; /* 31.75px */
+    background-color: #7d7d7d3e;
+}
+.menu li:nth-child(even) {
+    background: #5a5a5a3e;
+}
+.link::before {
+    content:"";
+    background: url(/img/vector.jpg) 0 0 no-repeat;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: -6px;
+}
+.link {
+    display:none;
+}
+.menu:hover .link {
+    display: block;
+}
+.menu li:hover {
+    display: block;
+    font-size: 40px;
+    color: #6B77E5;
+}
+.link:active {
+	color: rgb(217, 22, 109);
+}
+
+/* ---------GAME------------ */
+.game {
+    width: 700px;
+    height: 700px;
+    padding: 10px;
+    margin: 0 auto 50px;
+    font-size: 0px;
+	background-color: rgb(144, 144, 144);
+}
+.game > * {
+    background-color: #de1a86;
+}
+.game-line {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.46;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: #de1a86;
+    background-color: rgb(144, 144, 144);
+}
+.game-line-1 {
+    width: 50px;
+    height: 150px;
+    margin: 0 auto;
+    visibility: hidden;
+} 
+.game-line:hover ~ .game-line-1,
+.game-line-1:hover {
+    visibility: visible;
+}
+.game-line-2 {
+    width: 365px;
+    height: 40px;
+    visibility: hidden;
+}
+.game-line-1:hover ~ .game-line-2,
+.game-line-2:hover {
+    visibility: visible;
+}
+.game-line-3 {
+	width: 50px;
+	height: 240px;
+    visibility: hidden;
+}
+.game-line-2:hover ~ .game-line-3,
+.game-line-3:hover {
+    visibility: visible;
+}
+.game-line-4 {
+    width: 300px;
+    height: 25px;
+    visibility: hidden;
+}
+.game-line-3:hover ~ .game-line-4,
+.game-line-4:hover {
+    visibility: visible;
+}
+.game-line-5 {
+    width: 50px;
+    height: 140px;
+    margin-left: 250px;
+    visibility: hidden;
+}
+.game-line-4:hover ~ .game-line-5,
+.game-line-5:hover {
+    visibility: visible;
+}
+.game-finish {
+    font-size: 30px;
+    line-height: 1.46;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: #de1a86;
+    background-color: rgb(144, 144, 144);
+    margin-left: 230px;
+    visibility: hidden;
+}
+.game-line-5:hover ~ .game-finish,
+.game-finish:hover {
+    visibility: visible;
+}
+/* ---------exercise-1------------ */
 
 .exercise-1 {
     max-width: 722px;
@@ -284,7 +422,19 @@ body {
     font-weight: 700;
     line-height: 115%; /* 69px */
 }
-
+.title-four::after {
+    content: "";
+    display: block;
+    width: 62%;
+    height: 3px;
+    background: #785f59;
+    margin-top: 4px;
+}
+.title-four:hover::after {
+    /* height: 6px; */
+    width: 90%;
+    background: #a7918b;
+} 
 .holder-center {
     max-width: 334px;
     display: inline-block;
@@ -292,8 +442,12 @@ body {
     padding-top: 32px;
     vertical-align: top;
 }
+.holder-center:hover {
+    opacity: 0.5;
+}
 .image-center,
 .image-right {
+    width: 100%;
     margin-bottom: 25px;
     border: 1px solid #000;
 }
@@ -320,6 +474,16 @@ body {
     font-size: 24px;
     font-weight: 700;
     line-height: 140%; /* 33.6px */
+}
+.hover:hover {
+    opacity: 0.5;
+}
+.subtitle-text:hover {
+    text-decoration: underline;
+    color: #de6c1a;
+}
+.subtitle-text:active {
+    font-size: 30px;
 }
 .image-right {
 
