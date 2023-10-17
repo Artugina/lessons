@@ -29,10 +29,10 @@ header {
 .menu-list {
     font-size: 50px;
     font-weight: 700;
-}
-.menu {
     max-width: 300px;
     margin: 0 auto;
+}
+.menu {
     color: #37393F;
     font-family: "Poppins";
     font-size: 35px;
