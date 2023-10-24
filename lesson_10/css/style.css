@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:700,700italic);
+@import url("reset.css");
+
+
+body {
+    padding: 25px;
+}
+
+.icon {
+    background: #37393F;
+}
+
+.top {
+    display: inline-block;
+    text-align: top;
+}
+.image {
+    max-width: 300px;
+}
+
+p:not(:last-child) {
+    margin-bottom: 15px;
+}
+main {
+    margin-bottom: 50px;
+}
+footer {
+    text-align: center;
+}
