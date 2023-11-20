@@ -64,7 +64,7 @@ header{
     width: 16px;
     height: 16px;
     margin-right: 12px;
-    background: url(/img/header/search.svg) no-repeat center center;
+    background: url(../img/header/search.svg) no-repeat center center;
 }
 .header-language {
     color: #333;
@@ -227,8 +227,8 @@ header{
     display: block;
     background-color:#7F7F7F;
     transition: 
-        background-color: 0.3s;
-        width: 0.3s;
+        background-color 0.3s,
+        width 0.3s;
 }
 .item-product__link-title:hover {
     color: #8A33FD;
@@ -415,7 +415,7 @@ header{
     width: 96px;
     height: 96px;
     flex: 0 0 auto;
-    background-repeat: 4px;
+    border-radius: 4px;
 }
 .card-order__image:hover {
     transform: scale(1.05);
